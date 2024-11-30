@@ -95,7 +95,7 @@ function RegisterPage() {
         });
 
         // Redirect the user to the dashboard or desired page
-        window.location.href = "/dashboard"; // Replace with your desired route
+        window.location.href = "/"; // Replace with your desired route
       } else {
         // If no token is returned, show an error message
         setErrorMessage("Registration failed. Please try again.");

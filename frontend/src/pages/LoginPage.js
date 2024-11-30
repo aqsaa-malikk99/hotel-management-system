@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import Cookies from "js-cookie";
+
 import { loginUser } from "../services/authService.js";
 import { TextField, Button, IconButton, InputAdornment } from "@mui/material";
 import { Visibility, VisibilityOff } from "@mui/icons-material";
@@ -53,7 +54,7 @@ function LoginPage() {
         });
 
         // Redirect the user to the dashboard or desired page
-        window.location.href = "/dashboard"; // Replace with your desired route
+        window.location.href = "/"; // Replace with your desired route
       } else {
         // If no token is returned, show an error message
         setErrorMessage("Login failed. Please check your credentials.");
