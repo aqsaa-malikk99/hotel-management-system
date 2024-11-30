@@ -1,0 +1,20 @@
+.login-page {
+    background-image: url('../assets/background.png');
+    background-size: cover;
+    background-position: center;
+
+}
+
+.card {
+    width: 400px;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.password-icon {
+    position: absolute;
+    top: 38px;
+    right: 10px;
+    cursor: pointer;
+    color: #0388e9;
+}
